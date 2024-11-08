@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="media/logo.png">
+
+    <title>Rogelio Café | Café de especialidad</title>
+</head>
+<body>
+   
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img id= "logo" src="media/logo.png" alt="" class="image-navbar">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation";>
+            <span> <img src="icons/menu.png" alt="" class="hamburger-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: white;">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: black;">Rogelio Café</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <div class="button">
+                  <a href="documents/ejemplo.pdf" class="btn" role="button" download  id="carta">¡Nuestra carta!</a>
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="who.html" style="color: black;" id="sobrenosotros">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="who.html" style="color: black;" id="mayorista">Mayorista</a>
+                </li>
+                
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="wpp-icon-content">
+        <a href="https://www.youtube.com.ar">
+          <img src="icons/whatsapp.svg" alt="" class="wpp-icon-real">
+        </a>
+      </div>
+
+
+    <div class="carousel-first">
+      <div class="imagen1">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="media/imagen3.jpg" class="d-block w-100 " alt="..." id="imagen1real">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="media/imagen4.jpg" class="d-block w-100" alt="..." id="imagen1real">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+    </div>
+      
+
+
+
+    <div class="first">
+
+        <div class="video1">
+            <video autoplay loop muted>
+                <source src="media/video1.mp4" class="video">
+            </video>
+        </div>
+
+
+        <div class="txt1">
+            <div class="title">
+                <span>
+                    <p class="titlegreen">café</p>
+                    <p class="titlegreen">especial</p>
+                </span>
+            </div>
+            <p class="contentgreen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo?
+                 Lorem ipsum dolor sit amet</p>    
+        </div>
+
+    </div>
+
+
+    <!--<div class="text-wrapper">
+      <h1>somos únicos</h1>
+      <h1>somos únicos</h1> 
+      <h1>somos únicos</h1>
+      <h1>somos únicos</h1> 
+      <h1>somos únicos</h1> 
+    </div>-->
+
+
+
+    <div class="second">
+       
+      
+      <div class="imagen1">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="media/imagen1.jpg" class="d-block w-100 " alt="..." id="imagen1real">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="media/imagen2.jpg" class="d-block w-100" alt="..." id="imagen1real">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+
+        <div class="txt2">
+          <div class="title">
+            <span>
+                <p class="titlepink">únicos</p>
+                <p class="titlepink">en esto</p>
+            </span>
+        </div>
+          <p class="contentpink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo?
+                 Lorem ipsum dolor sit amet</p> 
+        </div>
+    
+    </div>
+
+
+    <div class="third">
+        <div class="video3">
+            <video autoplay loop muted>
+                <source src="media/video2.mp4" class="video33">
+            </video>
+        </div>
+
+        <div class="txt3">
+          <div class="title">
+            <span>
+                <p class="titlegreen">diferentes</p>
+                <p class="titlegreen">al resto</p>
+            </span>
+        </div>
+            <p class="contentgreen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo?
+                 Lorem ipsum dolor sit amet, consectetur adi!</p>    
+        </div>
+    </div>
+
+
+    <div class="fourth">
+      <div class="video4">
+          <video autoplay loop muted>
+              <source src="media/video1.mp4" class="video">
+          </video>
+      </div>
+
+      <div class="txt4">
+        <div class="title">
+          <span>
+              <p class="titlegreen">únicos</p>
+              <p class="titlegreen">en ésto</p>
+          </span>
+      </div>
+          <p class="contentgreen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo?
+               Lorem ipsum dolor sit amet, consectetur adi!</p>    
+      </div>
+  </div>
+
+    <!------------------FOOTER------------------>
+    <div class="container-fluid">
+        <div class="row p-3" style="background-color: white;">
+        <div class="col-xs-12 col-md-6 col-lg-3">
+        <h6  style="font-family: 'Red Hat Display'; color: black;" >Links</h6>
+        <div class="mb-2">
+        <a href="#" id="bottomm">Privacy & Policy</a>
+        </div>
+        <div class="mb-2">
+        <a href="#" id="bottomm">Terms and Conditions</a>
+        </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 mb-2">
+        <h6  style="font-family: 'Red Hat Display'; color: black;">Redes</h6>
+        <div class="mb-2">
+            <a class="text-decoration-none" href="https://www.instagram.com/borealcafe/?hl=es" id="bottomm">Instagram</a>
+        </div>
+        <div class="mb-2">
+            <a class="text-decoration-none" href="https://www.instagram.com/borealcafe/?hl=es" id="bottomm">X</a>
+        </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 mb-2">
+        <h6  style="font-family: 'Red Hat Display'; color: black;">Horarios</h6>
+        <h7  style="font-family: 'Red Hat Display'; color: grey;"> 9hs a 21hs </h7>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 mb-2">
+            <img src="media/logo.png" alt="" id="logo-footer">
+        </div>
+        </div>
+    </div>
+    
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
